@@ -1,0 +1,5 @@
+- name: create frontend server
+  hosts: frontend
+  become: yes
+  roles: 
+  - frontend
